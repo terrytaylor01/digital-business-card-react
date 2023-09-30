@@ -7,6 +7,10 @@ body {
     transform: scale(1.1); 
 }
 
+a {
+    text-decoration: none;
+}
+
 .card-wrapper {
     width:317px;
     display: flex;
@@ -43,6 +47,7 @@ body {
 }
 
 .card-body-headtext > h1 {
+    font-weight: 200;
     font-size: 25px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -73,12 +78,14 @@ body {
 }
 
 .card-button-wrapper > a {
+    border: 0;
     padding-top: 9px;
     padding-bottom: 9px;
     border-radius: 6px;
     display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
     
     margin-top: auto;
     margin-bottom: auto;
@@ -87,6 +94,8 @@ body {
     
     
 }
+
+
 
 .card-button-wrapper > a > h2 {
     font-size: 14px;
@@ -104,9 +113,34 @@ body {
     margin-right: 17px;
 }
 
+.card-button-email:hover {
+    background-color: #e4e4e4;
+}
+
+
+
+
+.card-button-icon {
+    margin: 0;
+    padding: 0;
+    margin-right: 8px;
+    width: 12px;
+    opacity: 70%;
+
+
+}
+
+.linkedin {
+    opacity: 40%;
+}
+
 .card-button-linkedin {
     background-color: #5093E2;
     color: #FFFFFF;
+}
+
+.card-button-linkedin:hover {
+    background-color: #4782c7 ;
 }
 
 .card-body-content {
@@ -133,8 +167,8 @@ body {
     border-radius: 0px 0px 10px 10px;
     align-items: center;
     justify-content: space-around;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .card-footer > img {
@@ -142,3 +176,6 @@ body {
     width: 25px;
 
 }
+
+
+

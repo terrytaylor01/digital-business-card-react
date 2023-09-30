@@ -1,4 +1,6 @@
 import React from "react";
+import email_logo from "../assets/envelope-solid.svg";
+import linkedin_logo from "../assets/linkedin-in.svg";
 
 export default function CardBody() {
   return (
@@ -9,10 +11,15 @@ export default function CardBody() {
         <h4>terrencetaylordev.website</h4>
       </div>
       <div className="card-button-wrapper">
-        <a className="card-button-email">
+        <a href="terrencetaylor01@gmail.com" className="card-button-email">
+          <img className="card-button-icon" src={email_logo} />
           <h2 className="button-text">Email</h2>
         </a>
-        <a className="card-button-linkedin">
+        <a
+          href="https://www.linkedin.com/in/terrence-taylor-863ab71a7/"
+          className="card-button-linkedin"
+        >
+          <img className="card-button-icon linkedin" src={linkedin_logo} />
           <h2 className="button-text"> LinkedIn</h2>
         </a>
       </div>
@@ -26,9 +33,7 @@ export default function CardBody() {
       </div>
       <div className="card-body-content">
         <h2>Interests</h2>
-        <p>
-          PC Hardware and Gaming, 3D Modelling, Camping, Cars and Music.
-        </p>
+        <p>PC Hardware and Gaming, 3D Modelling, Camping, Cars and Music.</p>
       </div>
     </div>
   );
