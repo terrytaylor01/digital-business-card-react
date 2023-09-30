@@ -4,7 +4,7 @@ body {
     padding-bottom: 2%;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    background-color: #23252C;
+    background-color: #1a1414;
     transform: scale(1.1); 
 }
 
@@ -20,10 +20,10 @@ a {
     margin-right: auto;
     margin-top: 44px;
     margin-bottom: 44px;
-    background-color: #1A1B21;
-    color: white;
+    background-color: #2D2424;
+    color: #e9e3da;
     border-radius: 10px;
-    box-shadow: 0 10px 15px 4px #1A1B21;
+    box-shadow: 0 10px 15px 4px #161212;
 
 }
 
@@ -57,7 +57,7 @@ a {
 .card-body-headtext > h3 {
     font-weight: 200;
     font-size: 13px;
-    color: #F3BF99;
+    color: #B85C38;
     margin-top: 6px;
     margin-bottom: 8px;
 }
@@ -66,6 +66,7 @@ a {
     font-weight: 200;
     font-size: 10px;
     margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .card-button-wrapper {
@@ -80,8 +81,8 @@ a {
 
 .card-button-wrapper > a {
     border: 0;
-    padding-top: 9px;
-    padding-bottom: 9px;
+    padding-top: 8px;
+    padding-bottom: 10px;
     border-radius: 6px;
     display: flex;
     padding-left: 15px;
@@ -109,8 +110,8 @@ a {
 
 
 .card-button-email {
-    background-color: #FFFFFF;
-    color: #374151;
+    background-color: #E0C097;
+    color: #1a1414;
     margin-right: 17px;
 }
 
@@ -127,21 +128,29 @@ a {
     margin-right: 8px;
     width: 12px;
     opacity: 70%;
+    margin-top: 2px;
 
 
 }
 
 .linkedin {
+    
     opacity: 40%;
 }
 
+
 .card-button-linkedin {
-    background-color: #5093E2;
-    color: #FFFFFF;
+    background-color: #B85C38;
+    color: #1a1414;
+    
 }
 
 .card-button-linkedin:hover {
     background-color: #4782c7 ;
+}
+
+.button-text {
+    font-weight: bold;
 }
 
 .card-body-content {
@@ -164,7 +173,7 @@ a {
     display: flex;
     margin-top: 35px;
     height: 64px;
-    background-color: #161619;
+    background-color: #1f1a1a;
     border-radius: 0px 0px 10px 10px;
     align-items: center;
     justify-content: space-around;
@@ -175,7 +184,10 @@ a {
 .card-footer > img {
     height: 25px;
     width: 25px;
+}
 
+.card-footer-logo {
+    opacity: 50%;
 }
 
 

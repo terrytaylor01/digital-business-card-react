@@ -12,7 +12,7 @@ export default function CardBody() {
       </div>
       <div className="card-button-wrapper">
         <a href="mailto:terrencetaylor01@gmail.com" target="_blank" className="card-button-email">
-          <img className="card-button-icon" src={email_logo} />
+          <img className="card-button-icon email" src={email_logo} />
           <h2 className="button-text">Email</h2>
         </a>
         <a
