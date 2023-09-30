@@ -11,7 +11,7 @@ export default function CardBody() {
         <h4>terrencetaylordev.website</h4>
       </div>
       <div className="card-button-wrapper">
-        <a href="terrencetaylor01@gmail.com" className="card-button-email">
+        <a href="mailto:terrencetaylor01@gmail.com" target="_blank" className="card-button-email">
           <img className="card-button-icon" src={email_logo} />
           <h2 className="button-text">Email</h2>
         </a>
@@ -27,13 +27,12 @@ export default function CardBody() {
         <h2>About</h2>
         <p>
           I am a Frontend Developer with an interest in beautiful and responsive
-          solutions. I primarily work in ReactJS for front-end, but I am always
-          up to date on the latest breakthroughs within the space!
+          solutions. I primarily work in ReactJS, but I am keeping track of new technologies and workflows!
         </p>
       </div>
       <div className="card-body-content">
         <h2>Interests</h2>
-        <p>PC Hardware and Gaming, 3D Modelling, Camping, Cars and Music.</p>
+        <p>3D Modelling, Camping, Cars and Music, PC Hardware and Gaming.</p>
       </div>
     </div>
   );
